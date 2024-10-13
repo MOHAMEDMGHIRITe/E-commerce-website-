@@ -1,0 +1,557 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    background-color: rgb(30, 32, 44);
+    width: 100%;
+    height: 60px;
+}
+
+
+#logo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    padding-top: 6px;
+    padding-left: 7px;
+    
+}
+
+.menu1 ul{
+    display: flex;
+    list-style-type: none;
+}
+.menu1 li {
+    margin-right: 20px;
+}
+
+.menu1 a{
+    text-decoration: none;
+    margin-top: 18px;
+    font-style:inherit;
+    font-weight: bolder;
+    color: aliceblue;    
+}
+
+.menu1 h3{
+    position: absolute;
+    margin-top: 12px;
+    font-size: 13px;
+    color: rgb(143, 143, 143);
+    font-style: normal;
+    margin-left: 90px;
+}
+
+header nav h2{
+    position: absolute;
+    margin-top: 30px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    margin-left: 90px;
+
+}
+
+#search{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 15px;
+    width: 650px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+
+#home{
+    position: absolute;
+    margin-left: 940px;
+}
+
+
+#singin{
+    position: absolute;
+    margin-left: 1050px;
+}
+
+#retuns{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 1150px;
+}
+
+#baseket{
+    position: absolute;
+    margin-left: 1240px;
+}
+
+.header1{
+    position: absolute;
+    background-color: rgb(46, 49, 76);
+    width: 100%;
+    height: 35px;
+    margin-top: 60px;
+}
+.menu ul{
+    display: flex;
+    padding-left: 60px;
+    padding-top: 7px;
+    margin: 0;
+    list-style-type: none;
+}
+.menu li {
+  margin-right: 120px;
+}
+
+.header1 a{
+    position: absolute;
+    text-decoration: none;
+    font-style:inherit;
+    font-weight: bold;
+    color: aliceblue;
+    
+}
+
+#blend{
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    background:linear-gradient( rgb(255, 255, 255) , rgba(228, 161, 61, 0.985) ) ;
+    margin-top: 412px;
+}
+#bigimage{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.homekitchen{
+    position: absolute;
+   background-color: rgb(255, 255, 255);
+   width: 280px;
+   height: 380px;
+   margin-top: 370px;
+   margin-left: 30px;
+   box-shadow: rgba(101, 103, 105, 0.561) 0px 8px 24px;
+}
+.homekitchen:hover{
+    box-shadow: rgba(67, 67, 68, 0.734) 0px 8px 24px;
+}
+.homekitchen a{
+    position: absolute;
+    margin-top: 344px;
+    font-size: 17px;
+    color: rgb(0, 99, 220);
+    font-style: normal;
+    margin-left:16px;
+    text-decoration: none;
+}
+.homekitchen a:hover{
+    color: rgb(0, 50, 112);
+
+}
+.homekitchen h3{
+    position: absolute;
+    font-style: unset;
+    margin-top: 12px;
+    margin-left: 11px;
+
+}
+#img2{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 50px;
+    margin-left: 11px;
+}
+#img3{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+#img4{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 205px;
+    margin-left: 150px;
+}
+#img5{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 205px;
+    margin-left: 11px;
+}
+
+.beauty{
+   position: absolute;
+   background-color: rgb(255, 255, 255);
+   width: 280px;
+   height: 380px;
+   margin-top: 370px;
+   margin-left: 380px;
+   box-shadow: rgba(101, 103, 105, 0.561) 0px 8px 24px;
+}
+
+.beauty:hover{
+    box-shadow: rgba(67, 67, 68, 0.734) 0px 8px 24px;
+}
+
+.beauty h3{
+    position: absolute;
+    font-style: unset;
+    margin-top: 12px;
+    margin-left: 11px;
+
+}
+
+.beauty a{
+    position: absolute;
+    margin-top: 344px;
+    font-size: 17px;
+    color: rgb(0, 99, 220);
+    font-style: normal;
+    margin-left:16px;
+    text-decoration: none;
+}
+.beauty a:hover{
+    color: rgb(0, 50, 112);
+
+}
+
+
+#beauty1{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+
+    padding-left: 11px;
+    margin-top: 50px;
+
+}
+
+#beauty2{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 50px;
+    padding-left: 150px;
+}
+#beauty3{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    padding-top: 205px;
+    padding-left: 11px;
+}
+#beauty4{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    padding-left: 150px;
+    padding-top: 205px;
+}
+
+.childmom{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 380px;
+    margin-top: 370px;
+    margin-left: 730px;
+    box-shadow: rgba(101, 103, 105, 0.561) 0px 8px 24px;
+}
+.childmom:hover{
+    box-shadow: rgba(67, 67, 68, 0.734) 0px 8px 24px;
+}
+.childmom a{
+    position: absolute;
+    margin-top: 344px;
+    font-size: 17px;
+    color: rgb(0, 99, 220);
+    font-style: normal;
+    margin-left:16px;
+    text-decoration: none;
+}
+.childmom a:hover{
+    color: rgb(0, 50, 112);
+
+}
+.childmom h3{
+    position: absolute;
+    font-style: unset;
+    margin-top: 12px;
+    margin-left: 11px;
+
+}
+
+.tech{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 380px;
+    margin-top: 370px;
+    margin-left:1080px;
+    box-shadow: rgba(101, 103, 105, 0.561) 0px 8px 24px;
+}
+.tech:hover{
+    box-shadow: rgba(67, 67, 68, 0.734) 0px 8px 24px;
+}
+
+.tech a{
+    position: absolute;
+    margin-top: 344px;
+    font-size: 17px;
+    color: rgb(0, 99, 220);
+    font-style: normal;
+    margin-left:16px;
+    text-decoration: none;
+}
+.tech a:hover{
+    color: rgb(0, 50, 112);
+
+}
+.tech h3{
+    position: absolute;
+    font-style: unset;
+    margin-top: 12px;
+    margin-left: 11px;
+
+}
+#phone{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 50px;
+    margin-left: 11px;
+}
+
+#headphone{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 205px;
+    margin-left: 11px;
+}
+#pc{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+#watch{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 206px;
+    margin-left: 150px;
+}
+
+
+.outfits{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 380px;
+    margin-top: 1120px;
+    margin-left:1080px;
+    box-shadow: rgba(101, 103, 105, 0.561) 0px 8px 24px;
+}
+
+
+.outfits:hover{
+    box-shadow: rgba(67, 67, 68, 0.734) 0px 8px 24px;  
+}
+.outfits h3{
+    position: absolute;
+    font-style: unset;
+    margin-top: 12px;
+    margin-left: 11px;
+
+}
+
+.outfits a{
+    position: absolute;
+    margin-top: 344px;
+    font-size: 17px;
+    color: rgb(0, 99, 220);
+    font-style: normal;
+    margin-left:16px;
+    text-decoration: none;
+}
+.outfits a:hover{
+    color: rgb(0, 50, 112);
+
+}
+
+
+.home{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 380px;
+    margin-top: 1120px;
+    margin-left:380px;
+    box-shadow: rgba(101, 103, 105, 0.561) 0px 8px 24px;
+}
+
+.home:hover{
+    box-shadow: rgba(67, 67, 68, 0.734) 0px 8px 24px;  
+}
+.home h3{
+    position: absolute;
+    font-style: unset;
+    margin-top: 12px;
+    margin-left: 11px;
+
+}
+
+.home a{
+    position: absolute;
+    margin-top: 344px;
+    font-size: 17px;
+    color: rgb(0, 99, 220);
+    font-style: normal;
+    margin-left:16px;
+    text-decoration: none;
+}
+.home a:hover{
+    color: rgb(0, 50, 112);
+
+}
+
+
+
+.homecare{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 380px;
+    margin-top: 1120px;
+    margin-left:730px;
+    box-shadow: rgba(101, 103, 105, 0.561) 0px 8px 24px;
+}
+
+.homecare:hover{
+    box-shadow: rgba(67, 67, 68, 0.734) 0px 8px 24px;  
+}
+
+.homecare h3{
+    position: absolute;
+    font-style: unset;
+    margin-top: 12px;
+    margin-left: 11px;
+
+}
+
+.homecare a{
+    position: absolute;
+    margin-top: 344px;
+    font-size: 17px;
+    color: rgb(0, 99, 220);
+    font-style: normal;
+    margin-left:16px;
+    text-decoration: none;
+}
+.homecare a:hover{
+    color: rgb(0, 50, 112);
+
+}
+
+
+.pharmacy{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 380px;
+    margin-top: 1120px;
+    margin-left:30px;
+    box-shadow: rgba(101, 103, 105, 0.561) 0px 8px 24px;
+}
+
+.pharmacy:hover{
+    box-shadow: rgba(67, 67, 68, 0.734) 0px 8px 24px;  
+}
+
+.pharmacy h3{
+    position: absolute;
+    font-style: unset;
+    margin-top: 12px;
+    margin-left: 11px;
+
+}
+
+.pharmacy a{
+    position: absolute;
+    margin-top: 344px;
+    font-size: 17px;
+    color: rgb(0, 99, 220);
+    font-style: normal;
+    margin-left:16px;
+    text-decoration: none;
+}
+.pharmacy a:hover{
+    color: rgb(0, 50, 112);
+
+}
+
+#slide{
+    position: absolute;
+    margin-top: 800px;
+    width: 100%;
+    box-shadow: rgba(101, 103, 105, 0.561) 0px 8px 24px;
+
+}
+
+#slide:hover{
+    box-shadow: rgba(67, 67, 68, 0.734) 0px 8px 24px;  
+}
+
+
+#slide1{
+    position: absolute;
+    margin-top: 1550px;
+    width: 100%;
+    box-shadow: rgba(101, 103, 105, 0.561) 0px 8px 24px;
+
+}
+
+#slide1:hover{
+    box-shadow: rgba(67, 67, 68, 0.734) 0px 8px 24px;  
+}
+
+footer{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    margin-top: 1865px;
+    box-shadow: rgba(101, 103, 105, 0.561) 0px 8px 24px;
+}
+
+footer h2{
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    margin-left: 500px;
+}
+
+footer button{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(255, 179, 0);
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-left: 580px;
+}
